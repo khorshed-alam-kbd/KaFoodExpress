@@ -5,7 +5,7 @@ import './UserInfo.css'
 
 const UserInfo = () => {
     return (
-        <div>
+        <div className='User-Profile'>
             <div className='User-Info'>
                 <img src={UserPhoto} alt="" />
                 <div>

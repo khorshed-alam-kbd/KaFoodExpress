@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import FoodDetails from '../FoodDetails/FoodDetails';
 import './Food.css'
 
-const Food = () => {
+const Food = (props) => {
+
     const [foods, setFoods] = useState([]);
 
     useEffect(() => {
@@ -21,6 +22,7 @@ const Food = () => {
                     foods.map(food => <FoodDetails
                         key={food.id}
                         food={food}
+                        handleAddToCart={props.handleAddToCart}
                     ></FoodDetails>)
                 }
 
