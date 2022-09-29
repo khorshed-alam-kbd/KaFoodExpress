@@ -1,0 +1,23 @@
+.User-Info {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.User-Info img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.User-Details {
+    margin-top: 30px;
+    padding: 10px 5px 10px 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.text-small small {
+    color: rgb(97, 97, 97);
+    font-weight: 350;
+}

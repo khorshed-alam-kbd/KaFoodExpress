@@ -1,0 +1,56 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "category": "BURGERS",
+        "name": "Zinger Box",
+        "price": 489,
+        "timeNeed": 10,
+        "img": "https://kfcbd.com/storage/products/nOMAuKCsTq43M5u9KUZev12jT.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "category": "BURGERS",
+        "name": "Big Zing Trio",
+        "price": 549,
+        "timeNeed": 15,
+        "img": "https://kfcbd.com/storage/products/C4n7s3VAYoGrcP8Uta5vsTlH5.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "category": "BURGERS",
+        "name": "Buddy Zinger Combo",
+        "price": 789,
+        "timeNeed": 20,
+        "img": "https://kfcbd.com/storage/products/Pe4qCHWsR06JObJsOuxKIWIfS.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "category": "BURGERS",
+        "name": "Super Charger Box",
+        "price": 449,
+        "timeNeed": 10,
+        "img": "https://kfcbd.com/storage/products/xMaSzF7PDVti764QmqSxxZ3Bh.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "category": "BURGERS",
+        "name": "2 Classic Zinger Meal",
+        "price": 949,
+        "timeNeed": 25,
+        "img": "https://kfcbd.com/storage/products/ryU2ocLnppvhfNJ5OvpgBrNQD.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+        "category": "BURGERS",
+        "name": "Mixed Zinger Doubles",
+        "price": 739,
+        "timeNeed": 20,
+        "img": "https://kfcbd.com/storage/products/kAS38cOBZ60lL2DRStEI2E9ua.jpg",
+        "quantity": 0
+    }
+]

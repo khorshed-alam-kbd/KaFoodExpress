@@ -1,0 +1,9 @@
+.order-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px 5px 10px 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
