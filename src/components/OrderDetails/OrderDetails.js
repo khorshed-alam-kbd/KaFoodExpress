@@ -1,7 +1,9 @@
 import React from 'react';
 import './OrderDetails.css'
+
+
 const OrderDetails = (props) => {
-    const { cart } = props;
+    const { cart, breakTime } = props;
     // console.log(cart.food);
 
     let totalTime = 0;
@@ -18,7 +20,7 @@ const OrderDetails = (props) => {
             </div>
             <div className='order-details'>
                 <p className='fw-semibold'>Break Time</p>
-                <p>minutes</p>
+                <p>{breakTime} minutes</p>
             </div>
             <button className='cart-btn mt-5 mb-5'> Order Completed</button>
         </div>

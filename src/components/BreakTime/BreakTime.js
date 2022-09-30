@@ -1,15 +1,17 @@
 import React from 'react';
 import './BreakTime.css'
-const BreakTime = () => {
+const BreakTime = (props) => {
+    const { handleBreakTime } = props
     return (
         <div>
             <h5 className='mt-5'>Take a Break</h5>
             <div className='Break-details'>
-                <p>10m</p>
-                <p>15m</p>
-                <p>20m</p>
-                <p>25m</p>
-                <p>30m</p>
+                <p onClick={() => handleBreakTime(10)}>10m</p>
+                <p onClick={() => handleBreakTime(15)}>15m</p>
+                <p onClick={() => handleBreakTime(20)}>20m</p>
+                <p onClick={() => handleBreakTime(25)}>25m</p>
+                <p onClick={() => handleBreakTime(30)}>30m</p>
+
             </div>
         </div>
     );

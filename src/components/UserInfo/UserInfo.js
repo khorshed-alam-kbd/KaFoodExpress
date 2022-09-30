@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot as location } from '@fortawesome/free-solid-svg-icons'
 import UserPhoto from '../../Image/khorshed-photo.jpg';
@@ -8,6 +8,12 @@ import './UserInfo.css'
 
 const UserInfo = (props) => {
     const { cart } = props;
+    const [breakTime, SetBreakTime] = useState(0);
+
+    const handleBreakTime = (time) => {
+        SetBreakTime(time);
+        // console.log(time, "clicked")
+    }
     return (
         <div className='User-Profile'>
             <div className='User-Info'>
@@ -24,8 +30,8 @@ const UserInfo = (props) => {
                     <h4>22<small>yrs <br />Age</small></h4>
                 </div>
             </div>
-            <BreakTime></BreakTime>
-            <OrderDetails cart={cart}></OrderDetails>
+            <BreakTime handleBreakTime={handleBreakTime} ></BreakTime>
+            <OrderDetails cart={cart} breakTime={breakTime}></OrderDetails>
         </div>
     );
 };
