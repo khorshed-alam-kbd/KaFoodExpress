@@ -3,9 +3,9 @@ import './QA.css'
 const QA = () => {
     return (
         <div>
-            <button className='cart-btn mt-5 mb-3 bg-info'> FQA</button>
+            <button className='cart-btn mt-5 mb-3 bg-info'>FQA</button>
             <div className='QA-Section'>
-                <h4>How Does React Work?</h4>
+                <h4>How Does React Work ?</h4>
                 <p>
                     React uses a declarative paradigm that makes it easier to reason about the application and aims to be both efficient and flexible. It designs simple views for each state in the application, and React will efficiently update and render just the right component when the data changes. The declarative view makes the code more predictable and easier to debug.
                     A React application is made of multiple components, each responsible for rendering a small, reusable piece of HTML. Components can be nested within other components to allow complex applications to be built out of simple building blocks. A component may also maintain an internal state for example, a TabList component may store a variable corresponding to the currently open tab.

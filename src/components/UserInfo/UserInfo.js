@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot as location } from '@fortawesome/free-solid-svg-icons'
 import UserPhoto from '../../Image/khorshed-photo.jpg';
@@ -13,7 +13,19 @@ const UserInfo = (props) => {
     const handleBreakTime = (time) => {
         SetBreakTime(time);
         // console.log(time, "clicked")
+        localStorage.setItem('breakTime', time);
+
     }
+    useEffect(() => {
+        const getDataFromStorage = localStorage.getItem('breakTime');
+        if (getDataFromStorage) {
+            SetBreakTime(getDataFromStorage);
+            // console.log('getdata', getDataFromStorage);
+        }
+
+    }, [])
+
+
     return (
         <div className='User-Profile'>
             <div className='User-Info'>
