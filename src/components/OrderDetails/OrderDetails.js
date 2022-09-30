@@ -26,16 +26,16 @@ const OrderDetails = (props) => {
         <div className='mt-5'>
             <h5 >Order Details</h5>
             <div className='order-details'>
-                <p className='fw-semibold'>Order Time</p>
-                <p>{totalTime} minutes</p>
+                <p className='fw-semibold mb-0'>Order Time</p>
+                <p className='mb-0'>{totalTime} minutes</p>
             </div>
             <div className='order-details'>
-                <p className='fw-semibold'>Break Time</p>
-                <p>{breakTime} minutes</p>
+                <p className='fw-semibold mb-0'>Break Time</p>
+                <p className='mb-0'>{breakTime} minutes</p>
             </div>
             <button className='cart-btn mt-5 mb-5' onClick={notify}> Order Completed</button>
             <ToastContainer />
-            <button className='cart-btn mt-5 mb-5'> FAQ</button>
+
         </div>
     );
 };
