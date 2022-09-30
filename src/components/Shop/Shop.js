@@ -19,7 +19,7 @@ const Shop = () => {
                 </div>
             </div>
             <div className="col-3 cart-section">
-                <UserInfo></UserInfo>
+                <UserInfo cart={cart}></UserInfo>
             </div>
         </div >
     );

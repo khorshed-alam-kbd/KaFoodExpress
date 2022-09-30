@@ -4,7 +4,8 @@ import BreakTime from '../BreakTime/BreakTime';
 import OrderDetails from '../OrderDetails/OrderDetails';
 import './UserInfo.css'
 
-const UserInfo = () => {
+const UserInfo = (props) => {
+    const { cart } = props;
     return (
         <div className='User-Profile'>
             <div className='User-Info'>
@@ -22,7 +23,7 @@ const UserInfo = () => {
                 </div>
             </div>
             <BreakTime></BreakTime>
-            <OrderDetails></OrderDetails>
+            <OrderDetails cart={cart}></OrderDetails>
         </div>
     );
 };
