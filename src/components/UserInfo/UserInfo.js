@@ -1,6 +1,7 @@
 import React from 'react';
 import UserPhoto from '../../Image/khorshed-photo.jpg';
 import BreakTime from '../BreakTime/BreakTime';
+import OrderDetails from '../OrderDetails/OrderDetails';
 import './UserInfo.css'
 
 const UserInfo = () => {
@@ -21,6 +22,7 @@ const UserInfo = () => {
                 </div>
             </div>
             <BreakTime></BreakTime>
+            <OrderDetails></OrderDetails>
         </div>
     );
 };

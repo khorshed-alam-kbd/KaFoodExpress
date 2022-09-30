@@ -1,5 +1,4 @@
 import React from 'react';
-import OrderDetails from '../OrderDetails/OrderDetails';
 import './BreakTime.css'
 const BreakTime = () => {
     return (
@@ -12,7 +11,6 @@ const BreakTime = () => {
                 <p>25m</p>
                 <p>30m</p>
             </div>
-            <OrderDetails></OrderDetails>
         </div>
     );
 };
