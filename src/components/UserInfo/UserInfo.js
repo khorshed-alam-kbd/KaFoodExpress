@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot as location } from '@fortawesome/free-solid-svg-icons'
 import UserPhoto from '../../Image/khorshed-photo.jpg';
 import BreakTime from '../BreakTime/BreakTime';
 import OrderDetails from '../OrderDetails/OrderDetails';
@@ -12,7 +14,7 @@ const UserInfo = (props) => {
                 <img src={UserPhoto} alt="" />
                 <div>
                     <h6 className='mb-0'>MD. KHORSHED ALAM</h6>
-                    <p><small>Dhaka, Bangladesh</small></p>
+                    <p> <small> <FontAwesomeIcon icon={location}></FontAwesomeIcon>  Dhaka, Bangladesh</small></p>
                 </div>
             </div>
             <div className='User-Details'>
