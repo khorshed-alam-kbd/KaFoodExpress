@@ -17,7 +17,7 @@ const Food = (props) => {
 
     return (
         <div >
-            <h1 className='mt-5 mb-4'><FontAwesomeIcon icon={faBurger}></FontAwesomeIcon> KA-FOOD-EXPRESS</h1>
+            <h1 className='mt-3 mb-3'><FontAwesomeIcon icon={faBurger}></FontAwesomeIcon> KA-FOOD-EXPRESS</h1>
             <h4 className='mb-3'> Select Your Food:</h4>
             <div className='foods-container'>
                 {

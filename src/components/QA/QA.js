@@ -3,7 +3,7 @@ import './QA.css'
 const QA = () => {
     return (
         <div>
-            <button className='cart-btn mt-5 mb-5'> FQA</button>
+            <button className='cart-btn mt-5 mb-3 bg-info'> FQA</button>
             <div className='QA-Section'>
                 <h4>How Does React Work?</h4>
                 <p>

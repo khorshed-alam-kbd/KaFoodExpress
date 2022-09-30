@@ -13,7 +13,7 @@ const Shop = () => {
         setCart(newCart);
     }
     return (
-        <div className="row">
+        <div className="row m-0">
             <div className="col-12 col-md-9 food-section">
                 <div className='m-4'>
                     <Food handleAddToCart={handleAddToCart}></Food>
