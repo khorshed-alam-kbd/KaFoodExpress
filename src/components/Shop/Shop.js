@@ -13,12 +13,12 @@ const Shop = () => {
     }
     return (
         <div className="row">
-            <div className="col-9 food-section">
+            <div className="col-12 col-md-9 food-section">
                 <div className='m-4'>
                     <Food handleAddToCart={handleAddToCart}></Food>
                 </div>
             </div>
-            <div className="col-3 cart-section">
+            <div className="col-12 col-md-3 cart-section">
                 <UserInfo cart={cart}></UserInfo>
             </div>
         </div >
