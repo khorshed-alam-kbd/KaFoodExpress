@@ -13,18 +13,16 @@ const UserInfo = (props) => {
     const handleBreakTime = (time) => {
         SetBreakTime(time);
         // console.log(time, "clicked")
-        localStorage.setItem('breakTime', time);
+        localStorage.setItem('BreakTime', time);
 
     }
     useEffect(() => {
-        const getDataFromStorage = localStorage.getItem('breakTime');
+        const getDataFromStorage = localStorage.getItem('BreakTime');
         if (getDataFromStorage) {
             SetBreakTime(getDataFromStorage);
-            // console.log('getdata', getDataFromStorage);
         }
 
     }, [])
-
 
     return (
         <div className='User-Profile'>
@@ -39,7 +37,7 @@ const UserInfo = (props) => {
                 <div className='d-flex justify-content-around text-small '>
                     <h4>78<small> kg <br />Weight</small></h4>
                     <h4>5.10 <small><br />Height</small></h4>
-                    <h4>22<small>yrs <br />Age</small></h4>
+                    <h4>23<small>yrs <br />Age</small></h4>
                 </div>
             </div>
             <BreakTime handleBreakTime={handleBreakTime} ></BreakTime>

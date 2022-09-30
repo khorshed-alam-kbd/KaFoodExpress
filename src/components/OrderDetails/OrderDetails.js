@@ -4,13 +4,11 @@ import './OrderDetails.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
 const OrderDetails = (props) => {
 
     const notify = () => {
-        toast('Your Food Order Is Completed, Thank You !!')
+        toast('  Food Order is Completed, Thank You')
     }
-
 
     const { cart, breakTime } = props
     // console.log(cart.food);

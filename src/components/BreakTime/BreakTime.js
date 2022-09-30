@@ -7,7 +7,7 @@ const BreakTime = (props) => {
         <div>
             <h5 className='mt-5'>Take a Break</h5>
             <div className='Break-details'>
-                <p id='10' onClick={() => handleBreakTime(10)}>10m</p>
+                <p onClick={() => handleBreakTime(10)}>10m</p>
                 <p onClick={() => handleBreakTime(15)}>15m</p>
                 <p onClick={() => handleBreakTime(20)}>20m</p>
                 <p onClick={() => handleBreakTime(25)}>25m</p>
