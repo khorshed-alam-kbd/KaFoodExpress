@@ -5,6 +5,7 @@ import UserPhoto from '../../Image/khorshed-photo.jpg';
 import BreakTime from '../BreakTime/BreakTime';
 import OrderDetails from '../OrderDetails/OrderDetails';
 import './UserInfo.css'
+import QA from '../QA/QA';
 
 const UserInfo = (props) => {
     const { cart } = props;
@@ -32,6 +33,7 @@ const UserInfo = (props) => {
             </div>
             <BreakTime handleBreakTime={handleBreakTime} ></BreakTime>
             <OrderDetails cart={cart} breakTime={breakTime}></OrderDetails>
+            <QA></QA>
         </div>
     );
 };
